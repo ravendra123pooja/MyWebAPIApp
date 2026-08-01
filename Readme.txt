@@ -58,16 +58,19 @@ connection string with digital signature with certificates
 2. Azure key vault is the most imp service provider of azure
 Azure Portal → Create a resource → Security → Key Vault
 1. KeyVault
-key vault name-mykeyvaultnavneet
-region-India South Central
+key vault name-RavendraKeyVault1234
+region-India Central
 2. Secret
-name of the Secret - DefaultConnection
+   Object---Secrets
+name of the Secret - myconnection
 3. Registration
-Azure active directory now is Intra ID
+Azure active directory now is Entra ID
+
+App registration ---- New Registration.... RavendraAPI
 ..................................................................................................
 22 July-
 While we are creating secret key there is a issue with the policy
-url for key vault(NavneetKeyVault1234) - https://navneetkeyvault1234.vault.azure.net/
+url for key vault(RavendraKeyVault1234) - https://ravendrakeyvault1234.vault.azure.net/
 secret key name - myconnection
 
 25 july-Now we have to configure in program.cs for azure key vault beacuse generaly we use sql server
@@ -75,7 +78,7 @@ connection string of local server but connection string is secure and kept in ce
 azure key vault. 
 step 1. {
   "KeyVault": {
-    "VaultUri": "https://navneetkeyvault1234.vault.azure.net/"
+    "VaultUri": "https://ravendrakeyvault1234.vault.azure.net/"
   }
 }
 // Step 2: Key Vault ko configuration source ke roop mein add karo
@@ -97,6 +100,9 @@ Logic- Key vault and dotnet core application are runinng both are seperate servi
 to apply authentication using manage Identity
 
 Server=tcp:employeeserver1.database.windows.net,1433;Initial Catalog=Employee;Persist Security Info=False;User ID=sqladmin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+
+Identity
 
 30 july-
 Storage Architecture-
