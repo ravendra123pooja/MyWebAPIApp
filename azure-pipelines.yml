@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: 'NavneetAgent'
+  name: 'RavendraAgent'
 
 variables:
   buildConfiguration: 'Release'
@@ -53,8 +53,8 @@ steps:
 - task: AzureWebApp@1
   displayName: 'Deploy to Azure App Service'
   inputs:
-    azureSubscription: 'NavneetUpdateConnection'
+    azureSubscription: 'MyUpdatedServiceConnection'
     appType: 'webApp'
-    appName: 'NavneetWebApp'
+    appName: 'RavendraWebApp'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 

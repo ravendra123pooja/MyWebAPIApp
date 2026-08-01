@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj": {}
+    "C:\\Users\\Ravendra Kumar\\Downloads\\MyWebApiApp\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj": {}
   },
   "projects": {
-    "C:\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj": {
+    "C:\\Users\\Ravendra Kumar\\Downloads\\MyWebApiApp\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ravendra Kumar\\Downloads\\MyWebApiApp\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj",
         "projectName": "MyWebApiApp",
-        "projectPath": "C:\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\MyWebApiApp\\src\\MyWebApiApp\\obj\\",
+        "projectPath": "C:\\Users\\Ravendra Kumar\\Downloads\\MyWebApiApp\\MyWebApiApp\\src\\MyWebApiApp\\MyWebApiApp.csproj",
+        "packagesPath": "C:\\Users\\Ravendra Kumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravendra Kumar\\Downloads\\MyWebApiApp\\MyWebApiApp\\src\\MyWebApiApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ravendra Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,6 +52,18 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
@@ -100,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

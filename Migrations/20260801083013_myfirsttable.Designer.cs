@@ -11,8 +11,8 @@ using MyWebApiApp.Controllers.Data;
 namespace MyWebApiApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260717151538_ph")]
-    partial class ph
+    [Migration("20260801083013_myfirsttable")]
+    partial class myfirsttable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

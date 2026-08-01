@@ -5,7 +5,7 @@
 namespace MyWebApiApp.Migrations
 {
     /// <inheritdoc />
-    public partial class ph : Migration
+    public partial class myfirsttable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
